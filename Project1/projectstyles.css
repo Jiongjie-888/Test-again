@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: white;
+}
+
+h1 {
+    font-size: 65px;
+    font-family: 'Georgia', serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.sign-in {
+    background: lightblue;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.hero-text {
+    width: 50%;
+    font-size: 18px;
+    text-align: left;
+    padding: 20px;
+}
+
+.hero-image img {
+    width: 350px;
+    border-radius: 50%;
+}
+
+.dessert {
+    padding: 50px;
+    background-color: white;
+}
+
+.dessert h2 {
+    font-size: 28px;
+}
+
+.dessert-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dessert img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.featured-products {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background: #f1f1f1;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+footer {
+    background: white;
+    padding: 20px;
+}
+
+.social-icons a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
